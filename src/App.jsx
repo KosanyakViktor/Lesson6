@@ -1,16 +1,9 @@
 import React from "react";
-import Auth from './Auth';
-import Login from './Login';
-import Spinner from './Spinner';
-import Logout from './Logout';
+import Auth from './Auth.jsx';
 
-const App = () => {
-  return <div>
+const App = () =>  (<>
           <Auth />
-          <Login />
-          <Logout />
-          <Spinner size={50} />
-         </div>;
-};
+</>)
+;
 
 export default App;
